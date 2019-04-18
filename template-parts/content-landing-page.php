@@ -82,8 +82,10 @@ if ($query->have_posts()) :
 		 endwhile;
 	else:
 ?>
-
+<!-- replace error message when no quote is available with hardcoded quote
 		 Oops, there are no posts.
+-->
+<p>“Welcome to a museum of words instead of bones. Where sentences take the shapes of skeletons. Where nouns and verbs replace ribs and vertebrae.” — Isaac Yuen, “<a href="https://shenandoahliterary.org/681/our-museum-of-the-future/">Our Museum of the Future</a>”</p>
 
 <?php
 	endif;
