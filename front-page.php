@@ -1,19 +1,17 @@
 <?php
 /**
- * The main template file
- *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+* Template Name: Front Page Template
+*
+* Description: A page template that provides a key component of WordPress as a CMS
+* by meeting the need for a carefully crafted introductory page. The front page template
+* in Twenty Twelve consists of a page content area for adding text, images, video --
+* anything you'd like -- followed by front-page-only widgets in one or two columns.
+
  *
  * @package ShenAleph
  */
 
-get_header();
-?>
+get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
@@ -30,14 +28,11 @@ get_header();
 								/*
 								 *
 								 *
-								 * Pulls content into TOC
+								 * Pulls in content
 								 */
 								get_template_part( 'template-parts/content', 'landing-page' );
 							endwhile;
-							the_posts_navigation();
-						else :
-							get_template_part( 'template-parts/content', 'none' );
-						endif;
+
 						?>
 
 
