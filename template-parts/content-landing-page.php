@@ -120,9 +120,9 @@ if ($query->have_posts()) :
 					 endwhile;
 				else:
 			?>
-
+<!--  suppress error message when no features are presented
 					 Oops, there are no features.
-
+-->
 			<?php
 				endif;
 				wp_reset_postdata();
