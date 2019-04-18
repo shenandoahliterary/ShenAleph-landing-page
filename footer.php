@@ -23,7 +23,7 @@
 			</div>
 <div class="row">
 	<div class="col-md-12">
-	<p class="copyright">&copy; 2018&emdash;2019 Shenandoah</p>
+	<p class="copyright">&copy; 2018&mdash;2019 Shenandoah</p>
 </div>
 
 		</div><!-- .site-info -->
