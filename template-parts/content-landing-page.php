@@ -32,7 +32,7 @@ $upload_path =  $uploads['baseurl'];
 				 ?>
 				<p>
 
-					<span class="author_name"><?php the_content();  ?></span>
+					<span class="TOC-quote"><?php the_content();  ?></span>
 
 			</p>
 		<?php endwhile;
