@@ -857,7 +857,7 @@ section.workAuthorBio a {
 	padding: 1rem;
 	text-align: center;
 	font-size: 3rem;
-	border: 2px solid #a37a75;
+ /* border: 2px solid #a37a75; */
 }
 
 hr {
