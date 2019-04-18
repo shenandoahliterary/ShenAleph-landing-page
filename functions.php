@@ -137,7 +137,7 @@ add_action( 'widgets_init', 'shenAlephLandingPage_widgets_init' );
  */
 function shenAlephLandingPage_scripts() {
 	wp_enqueue_style( 'bootstrap_css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' );
-	wp_enqueue_style( 'shenAlephLandingPage', get_stylesheet_uri().'style.css');
+	wp_enqueue_style( 'shenAlephLandingPage', get_stylesheet_uri());
 
   wp_enqueue_style('font', get_template_directory_uri().'/thein/Theinhardt-Medium.css');
 	wp_enqueue_style('font-light', get_template_directory_uri().'/thein/Theinhardt-Light.css');
