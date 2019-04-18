@@ -46,6 +46,9 @@ get_header();
 					 elseif (has_tag('erasure') )  :
 	 									get_template_part( 'template-parts/content', 'erasure' );
 
+					elseif (has_tag('landing-page') )  :
+														 get_template_part( 'template-parts/content', 'landing-page' );					
+
 					elseif (has_tag('translation') )  :
 							get_template_part( 'template-parts/content', 'translation' );
 
