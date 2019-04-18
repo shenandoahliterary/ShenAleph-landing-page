@@ -1,13 +1,13 @@
 <?php
 /**
- * ShenAleph functions and definitions
+ * shenAlephLandingPage functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package ShenAleph
+ * @package shenAlephLandingPage
  */
 
-if ( ! function_exists( 'shenAleph_setup' ) ) :
+if ( ! function_exists( 'shenAlephLandingPage_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
 	 *
@@ -15,14 +15,14 @@ if ( ! function_exists( 'shenAleph_setup' ) ) :
 	 * runs before the init hook. The init hook is too late for some features, such
 	 * as indicating support for post thumbnails.
 	 */
-	function shenAleph_setup() {
+	function shenAlephLandingPage_setup() {
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
-		 * If you're building a theme based on ShenAleph, use a find and replace
+		 * If you're building a theme based on shenAlephLandingPage, use a find and replace
 		 * to change 'custom-theme-for-the-shenandoah-literary-magazine' to the name of your theme in all the template files.
 		 */
-		load_theme_textdomain( 'shenAleph', get_template_directory() . '/languages' );
+		load_theme_textdomain( 'shenAlephLandingPage', get_template_directory() . '/languages' );
 
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
@@ -46,7 +46,7 @@ if ( ! function_exists( 'shenAleph_setup' ) ) :
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'shenAleph' ),
+			'menu-1' => esc_html__( 'Primary', 'shenAlephLandingPage' ),
 		) );
 
 		/*
@@ -62,7 +62,7 @@ if ( ! function_exists( 'shenAleph_setup' ) ) :
 		) );
 
 		// Set up the WordPress core custom background feature.
-		add_theme_support( 'custom-background', apply_filters( 'shenAleph_custom_background_args', array(
+		add_theme_support( 'custom-background', apply_filters( 'shenAlephLandingPage_custom_background_args', array(
 			'default-color' => 'ffffff',
 			'default-image' => '',
 		) ) );
@@ -83,7 +83,7 @@ if ( ! function_exists( 'shenAleph_setup' ) ) :
 		) );
 	}
 endif;
-add_action( 'after_setup_theme', 'shenAleph_setup' );
+add_action( 'after_setup_theme', 'shenAlephLandingPage_setup' );
 
 
 
@@ -106,38 +106,38 @@ add_filter( 'get_custom_logo', 'change_logo_class' );
  *
  * @global int $content_width
  */
-function shenAleph_content_width() {
+function shenAlephLandingPage_content_width() {
 	// This variable is intended to be overruled from themes.
 	// Open WPCS issue: {@link https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/issues/1043}.
 	// phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
-	$GLOBALS['content_width'] = apply_filters( 'shenAleph_content_width', 640 );
+	$GLOBALS['content_width'] = apply_filters( 'shenAlephLandingPage_content_width', 640 );
 }
-add_action( 'after_setup_theme', 'shenAleph_content_width', 0 );
+add_action( 'after_setup_theme', 'shenAlephLandingPage_content_width', 0 );
 
 /**
  * Register widget area.
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function shenAleph_widgets_init() {
+function shenAlephLandingPage_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'shenAleph' ),
+		'name'          => esc_html__( 'Sidebar', 'shenAlephLandingPage' ),
 		'id'            => 'sidebar-1',
-		'description'   => esc_html__( 'Add widgets here.', 'shenAleph' ),
+		'description'   => esc_html__( 'Add widgets here.', 'shenAlephLandingPage' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
 }
-add_action( 'widgets_init', 'shenAleph_widgets_init' );
+add_action( 'widgets_init', 'shenAlephLandingPage_widgets_init' );
 
 /**
  * Enqueue scripts and styles.
  */
-function shenAleph_scripts() {
+function shenAlephLandingPage_scripts() {
 	wp_enqueue_style( 'bootstrap_css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' );
-	wp_enqueue_style( 'shenAleph', get_stylesheet_uri() );
+	wp_enqueue_style( 'shenAlephLandingPage', get_stylesheet_uri() );
 
   wp_enqueue_style('font', get_template_directory_uri().'/thein/Theinhardt-Medium.css');
 	wp_enqueue_style('font-light', get_template_directory_uri().'/thein/Theinhardt-Light.css');
@@ -147,28 +147,28 @@ function shenAleph_scripts() {
 
 	wp_enqueue_script( 'bootstrap_js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js');
 
-	wp_enqueue_script( 'shenAleph-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	wp_enqueue_script( 'shenAlephLandingPage-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
-	wp_enqueue_script( 'shenAleph-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	wp_enqueue_script( 'shenAlephLandingPage-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 	if ( has_tag('translation')) {
-		wp_enqueue_script('shenAleph-toggle-translation', get_template_directory_uri() . '/js/toggle-translation.js', array('jquery'), 'null', true);
+		wp_enqueue_script('shenAlephLandingPage-toggle-translation', get_template_directory_uri() . '/js/toggle-translation.js', array('jquery'), 'null', true);
 	}
 	if ( has_tag('erasure')) {
-		wp_enqueue_script('shenAleph-toggle-erasure', get_template_directory_uri() . '/js/toggle-erasure.js', array('jquery'), 'null', true);
+		wp_enqueue_script('shenAlephLandingPage-toggle-erasure', get_template_directory_uri() . '/js/toggle-erasure.js', array('jquery'), 'null', true);
 	}
 
 }
-add_action( 'wp_enqueue_scripts', 'shenAleph_scripts' );
+add_action( 'wp_enqueue_scripts', 'shenAlephLandingPage_scripts' );
 
 
 
 ### Function: Add Author Custom Fields
 
-function shenAleph_add_author_fields($post_ID) {
+function shenAlephLandingPage_add_author_fields($post_ID) {
 	global $wpdb;
 	$user_id = $wpdb->get_var("SELECT post_author FROM $wpdb->posts WHERE ID = $post_ID");
 //	$author_last = $wpdb->get_var("SELECT meta_value FROM $wpdb->usermeta WHERE meta_key = 'last_name' AND user_id = $user_id");
@@ -177,13 +177,13 @@ $author_info = $wpdb->get_var("SELECT meta_value FROM $wpdb->usermeta WHERE meta
 	update_post_meta($post_ID, 'username', $author_info);
 }
 
-add_action('publish_post', 'shenAleph_add_author_fields');
+add_action('publish_post', 'shenAlephLandingPage_add_author_fields');
 
 
-function shenAleph_empty_email_error( $arg ) {
+function shenAlephLandingPage_empty_email_error( $arg ) {
     if ( !empty( $arg->errors['empty_email'] ) ) unset( $arg->errors['empty_email'] );
 }
-add_action( 'user_profile_update_errors', 'shenAleph_empty_email_error' );
+add_action( 'user_profile_update_errors', 'shenAlephLandingPage_empty_email_error' );
 
 
 
@@ -194,51 +194,51 @@ add_action( 'user_profile_update_errors', 'shenAleph_empty_email_error' );
 * needs testing
 * need to provide option so not to adjust poetry
 *******************************************/
-function shenAleph_paragraph_spacing($text) {
+function shenAlephLandingPage_paragraph_spacing($text) {
 	$text = str_replace('<br>', '</p><p>', $text);
 	return $text;
 }
 
-add_filter('the_content', 'shenAleph_paragraph_spacing');
+add_filter('the_content', 'shenAlephLandingPage_paragraph_spacing');
 
 
 
 /******************************************
 * Section Break -- replace text and insert glpyh
 *******************************************/
-function shenAleph_section_break($text) {
+function shenAlephLandingPage_section_break($text) {
 	$text = str_replace("[SECTION BREAK]", "<p class='text-center p-section-break'>&#9652;&nbsp;&#9652;&nbsp;&#9652;</p>", $text);
 	return $text;
 }
 
-add_filter('the_content', 'shenAleph_section_break');
+add_filter('the_content', 'shenAlephLandingPage_section_break');
 
 /******************************************
 * Clear Section Break -- for breaks that need space but not glyph
 *******************************************/
-function shenAleph_clear_section_break($text) {
+function shenAlephLandingPage_clear_section_break($text) {
 	$text = str_replace("[CLEAR SECTION BREAK]", "<p class='clear-section-break'></p>", $text);
 	return $text;
 }
 
-add_filter('the_content', 'shenAleph_clear_section_break');
+add_filter('the_content', 'shenAlephLandingPage_clear_section_break');
 
 
 /******************************************
 * Stanza Break -- for breaks that need space but not glyph
 *******************************************/
-function shenAleph_stanza_break($text) {
+function shenAlephLandingPage_stanza_break($text) {
 	$text = str_replace("[STANZA BREAK]", "<p class='stanza-break'></p>", $text);
 	return $text;
 }
 
-add_filter('the_content', 'shenAleph_stanza_break');
+add_filter('the_content', 'shenAlephLandingPage_stanza_break');
 
 
 /******************************************
 * Handles multiple authors per post
 *******************************************/
-function shenAleph_filter_authors(){
+function shenAlephLandingPage_filter_authors(){
 	$custom_fields = get_post_custom();
 
 	$my_custom_field = $custom_fields['author_lastname'];
@@ -283,7 +283,7 @@ if (! empty($my_custom_field)) {
 /******************************************
 * Displays second author of post
 *******************************************/
-function shenAleph_filter_second_author(){
+function shenAlephLandingPage_filter_second_author(){
 	$custom_fields = get_post_custom();
 
 	$my_custom_field = $custom_fields['second_author'];
@@ -341,7 +341,7 @@ function shenAleph_filter_second_author(){
  *
  * add extra bio
  */
- function shenAleph_filter_add_bio(){
+ function shenAlephLandingPage_filter_add_bio(){
  $custom_fields = get_post_custom();
 
  $my_custom_field = $custom_fields['add_bio'];
