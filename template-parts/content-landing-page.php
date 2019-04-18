@@ -19,7 +19,7 @@ $upload_path =  $uploads['baseurl'];
 
 <section class="container TOCsection">
 <div class="row">
-	<div class="col-md-4 offset-md-1 TOC-column-1">
+	<div class="col-md-8 offset-md-2 TOC-column-1">
 
 		<?php
 		remove_all_filters('posts_orderby');
@@ -44,19 +44,12 @@ $upload_path =  $uploads['baseurl'];
 
 
 	</div> <!-- close column -->
-	<div class="col-md-4 offset-md-1">
-
-
-
-
-
-</div> <!-- close column -->
 </div> <!-- close row -->
 
 
 <div class="row">
 	<div class="col-md-8 offset-md-2 single-space-paragraphs">
-<p><a href="https://shenandoahliterary.org/681/editors-note/">Editor&rsquo;s Note</a><br /><span class="author_name">Beth Staples</span></p>
+<p><br /><span class="author_name">Beth Staples</span>, Editor</p>
 
 
 
