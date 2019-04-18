@@ -37,7 +37,7 @@
 		<div class="row">
 			<div class="col-md-5 offset-md-1">
 				<div class="volumeIssueBanner">
-				<span class="">Volume 68, Number 1 &middot; Fall 2018</span>
+				<span class=""></span>
 				</div>
 		</div>
 			<div class="col-md-5">
