@@ -31,14 +31,14 @@
 				else {
 			 the_author_meta('display_name');
 			 echo "<br />";
-			 shenAleph_filter_authors();
+			 shenAlephLandingPage_filter_authors();
 		 }
 			  ?></p>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php shenAleph_post_thumbnail(); ?>
+	<?php shenAlephLandingPage_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
@@ -63,7 +63,7 @@
 	</div><!-- .entry-content -->
 <!-- author bio -->
 	<hr>
-	<?php shenAleph_filter_add_bio(); ?>
+	<?php shenAlephLandingPage_filter_add_bio(); ?>
 	<section class="workAuthorBio"><?php the_author_meta('description') ?></section>
 	<!-- add 2nd author bio -->
 	<?php
@@ -108,7 +108,7 @@ if (! empty($extra_content)) {
 }
 	?>
 	<footer class="entry-footer">
-		<?php shenAleph_entry_footer(); ?>
+		<?php sshenAlephLandingPage_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
 </div>
