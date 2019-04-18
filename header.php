@@ -27,7 +27,8 @@
 
 			<section class="topbanner container-fluid" id="typelogo-container">
 				<div class="row">
-					<?php	the_custom_logo(); ?>
+				<!--	<?php	the_custom_logo(); ?> -->
+				<a href="https://shenandoahliterary.org/681/" class="img-fluid-link" rel="home" itemprop="url"><img width="1600" height="228" src="https://shenandoahliterary.org/681/files/2018/12/Shenandoah-1600.jpg" class="img-fluid" alt="Shenandoah Volume 68, Number 1" itemprop="logo" srcset="https://shenandoahliterary.org/681/files/2018/12/Shenandoah-1600.jpg 1600w, https://shenandoahliterary.org/681/files/2018/12/Shenandoah-1600-300x43.jpg 300w, https://shenandoahliterary.org/681/files/2018/12/Shenandoah-1600-768x109.jpg 768w, https://shenandoahliterary.org/681/files/2018/12/Shenandoah-1600-1024x146.jpg 1024w" sizes="(max-width: 1600px) 100vw, 1600px" /></a>
 				</div>
 				<div class="row">
 		<div class="col-md-11">
