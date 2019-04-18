@@ -108,7 +108,7 @@ if (! empty($extra_content)) {
 }
 	?>
 	<footer class="entry-footer">
-		<?php sshenAlephLandingPage_entry_footer(); ?>
+		<?php shenAlephLandingPage_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
 </div>
