@@ -30,11 +30,7 @@ $upload_path =  $uploads['baseurl'];
 
 	</div> <!-- close column -->
 	<div class="col-md-4 offset-md-1">
-		<h3>Poetry</h3>
-
-
-
-		<h3>Interview</h3>
+	
 
 
 
