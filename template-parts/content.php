@@ -38,7 +38,7 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php shenAlephLandingPage_post_thumbnail(); ?>
+	<?php /* shenAlephLandingPage_post_thumbnail(); */ ?>
 
 	<div class="entry-content">
 		<?php
