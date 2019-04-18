@@ -29,9 +29,9 @@ $upload_path =  $uploads['baseurl'];
 		$landingpage_loop = new WP_Query($landingpage_args);
 				while ($landingpage_loop->have_posts()) : $landingpage_loop->the_post();
 				 ?>
-				<p>test	<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a><br />
+				<p>
 
-					<span class="author_name"><?php the_author();  ?></span>
+					<span class="author_name"><?php the_content();  ?></span>
 
 			</p>
 		<?php endwhile;
