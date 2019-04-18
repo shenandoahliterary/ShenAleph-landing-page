@@ -853,8 +853,10 @@ section.workAuthorBio a {
 }
 
 .issue-entry-box {
+	margin-top: 1.5rem;
 	text-align: center;
 	font-size: 3rem;
+	border: 1px solid #a37a75;
 }
 
 hr {
