@@ -24,13 +24,7 @@ $upload_path =  $uploads['baseurl'];
 		<?php
 		remove_all_filters('posts_orderby');
 		$landingpage_args = array(
-			'category_name' => 'fiction',
-			'order' => 'ASC',
-			'meta_key' => 'TOC_order',
-			'orderby' => 'meta_value_num',
-			'meta_type' => 'NUMERIC',
-			'nopaging' => 'true',
-
+			'page_id' => '7084'
 		);
 		$landingpage_loop = new WP_Query($landingpage_args);
 				while ($landingpage_loop->have_posts()) : $landingpage_loop->the_post();
