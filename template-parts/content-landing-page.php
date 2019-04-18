@@ -18,7 +18,7 @@ $upload_path =  $uploads['baseurl'];
 </div>
 </section>
 
-<section class="container TOCsection">
+<section class="container">
 <div class="row">
 	<div class="col-md-8 offset-md-2 TOC-column-1 issue-entry-box">
 
@@ -48,7 +48,7 @@ $upload_path =  $uploads['baseurl'];
 
 <div class="row">
 	<div class="col-md-8 offset-md-2 single-space-paragraphs">
-<p><br /><span class="author_name">Beth Staples</span>, Editor</p>
+
 
 
 
