@@ -21,7 +21,28 @@ $upload_path =  $uploads['baseurl'];
 <div class="row">
 	<div class="col-md-4 offset-md-1 TOC-column-1">
 
+		<?php
+		remove_all_filters('posts_orderby');
+		$landingpage_args = array(
+			'category_name' => 'fiction',
+			'order' => 'ASC',
+			'meta_key' => 'TOC_order',
+			'orderby' => 'meta_value_num',
+			'meta_type' => 'NUMERIC',
+			'nopaging' => 'true',
 
+		);
+		$landingpage_loop = new WP_Query($landingpage_args);
+				while ($landingpage_loop->have_posts()) : $landingpage_loop->the_post();
+				 ?>
+				<p>test	<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a><br />
+
+					<span class="author_name"><?php the_author();  ?></span>
+
+			</p>
+		<?php endwhile;
+		wp_reset_postdata();
+		?>
 
 
 
@@ -30,7 +51,7 @@ $upload_path =  $uploads['baseurl'];
 
 	</div> <!-- close column -->
 	<div class="col-md-4 offset-md-1">
-	
+
 
 
 
