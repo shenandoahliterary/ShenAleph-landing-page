@@ -30,7 +30,7 @@ $upload_path =  $uploads['baseurl'];
 		$landingpage_loop = new WP_Query($landingpage_args);
 				while ($landingpage_loop->have_posts()) : $landingpage_loop->the_post();
 				 ?>
-				<p class="">
+				<p class="issue-entry-box">
 					<?php the_content();  ?>
 			</p>
 		<?php endwhile;

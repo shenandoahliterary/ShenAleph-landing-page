@@ -852,6 +852,11 @@ section.workAuthorBio a {
 
 }
 
+.issue-entry-box {
+	text-align: center;
+	font-size: 3rem;
+}
+
 hr {
 	background-color: #ccc;
 	border: 0;
