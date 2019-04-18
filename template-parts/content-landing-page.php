@@ -30,10 +30,8 @@ $upload_path =  $uploads['baseurl'];
 		$landingpage_loop = new WP_Query($landingpage_args);
 				while ($landingpage_loop->have_posts()) : $landingpage_loop->the_post();
 				 ?>
-				<p class="TOC-quote">
-
+				<p class="">
 					<?php the_content();  ?>
-
 			</p>
 		<?php endwhile;
 		wp_reset_postdata();
