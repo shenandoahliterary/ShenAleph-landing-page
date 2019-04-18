@@ -32,7 +32,7 @@ get_header();
 								 *
 								 * Pulls content into TOC
 								 */
-								get_template_part( 'template-parts/content', 'toc' );
+								get_template_part( 'template-parts/content', 'landing-page' );
 							endwhile;
 							the_posts_navigation();
 						else :
