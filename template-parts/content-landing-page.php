@@ -20,7 +20,7 @@ $upload_path =  $uploads['baseurl'];
 
 <section class="container TOCsection">
 <div class="row">
-	<div class="col-md-8 offset-md-2 TOC-column-1">
+	<div class="col-md-8 offset-md-2 TOC-column-1 issue-entry-box">
 
 		<?php
 		remove_all_filters('posts_orderby');
@@ -30,7 +30,7 @@ $upload_path =  $uploads['baseurl'];
 		$landingpage_loop = new WP_Query($landingpage_args);
 				while ($landingpage_loop->have_posts()) : $landingpage_loop->the_post();
 				 ?>
-				<p class="issue-entry-box">
+				<p class="">
 					<?php the_content();  ?>
 			</p>
 		<?php endwhile;
