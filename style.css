@@ -1,0 +1,1566 @@
+/*!
+Theme Name: ShenAleph
+Theme URI: https://github.com/jeffreybarry/ShenAleph
+Author: Jeff Barry
+Author URI: http://jeffbarry.org
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: custom-theme-for-the-shenandoah-literary-magazine
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ShenAleph is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+# Media Queries
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+/* normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+	 ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+	line-height: 1.15; /* 1 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+	overflow-x: hidden;
+}
+
+/* Sections
+	 ========================================================================== */
+
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+/* Grouping content
+	 ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+	box-sizing: content-box; /* 1 */
+	height: 0; /* 1 */
+	overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+	font-family: monospace, monospace; /* 1 */
+	font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+	 ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+	background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+	border-bottom: none; /* 1 */
+	text-decoration: underline; /* 2 */
+	text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+	font-family: monospace, monospace; /* 1 */
+	font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+	font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+/* Embedded content
+	 ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+	border-style: none;
+}
+
+/* Forms
+	 ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit; /* 1 */
+	font-size: 100%; /* 1 */
+	line-height: 1.15; /* 1 */
+	margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+	overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+	text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+	-webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+	outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+	padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *		`fieldset` elements in all browsers.
+ */
+
+legend {
+	box-sizing: border-box; /* 1 */
+	color: inherit; /* 2 */
+	display: table; /* 1 */
+	max-width: 100%; /* 1 */
+	padding: 0; /* 3 */
+	white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+	vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+	overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+	box-sizing: border-box; /* 1 */
+	padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+	-webkit-appearance: textfield; /* 1 */
+	outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+	-webkit-appearance: button; /* 1 */
+	font: inherit; /* 2 */
+}
+
+/* Interactive
+	 ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+	display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+	display: list-item;
+}
+
+/* Misc
+	 ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+	display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+	display: none;
+}
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	/*color: #404040;*/
+	color: #181818;
+	font-family: minion-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+/*
+.custom-logo {
+	border-radius: 50%;
+}
+*/
+
+.shen-logo-footer {
+	border: 1px solid black;
+}
+
+.typelogo-column {
+	margin-right: -3.75rem;
+	padding-left: 4rem;
+}
+
+
+#typelogo {
+		font-family: "Theinhardt";
+		font-weight: 500;
+		/*font-size: 8.725rem;*/
+		font-size: 10.75rem;
+		text-transform: uppercase;
+		margin:0 0 -3rem 0;
+		text-align: center;
+
+}
+
+#typelogo a:link {
+	text-decoration: none;
+	color: #181818;
+}
+
+#typelogo a:visited {
+	text-decoration: none;
+	color: #181818;
+}
+
+footer hr {
+	background-color: #181818 !important;
+}
+
+.smallcaps {
+	font-variant: small-caps;
+	font-variant-caps: small-caps;
+}
+
+#translation-control-panel {
+	visibility: hidden;
+}
+
+
+
+.TOCsection {
+	margin-top: 4rem;
+
+}
+
+.entry-header {
+margin-top: 5.5rem;
+}
+
+.page-contributors h1{
+	margin-bottom: 2rem;
+ }
+
+.entry-title {
+	font-family: "Theinhardt";
+	font-weight: 500;
+	font-size: 2.5rem;
+	margin-bottom: .25rem;
+	line-height: 1.1; /* was 1.1*/
+	padding-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Theinhardt";
+	font-weight: 500;
+	clear: both;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+.workAuthorByline {
+	font-family: "Theinhardt";
+	font-weight: 300;
+	font-size: 2rem;
+}
+
+/* author name above bio at bottom of page */
+.workAuthor {
+margin-top: 2rem;
+margin-bottom: .5rem;
+}
+
+.workAuthorBio {
+line-height: 1.25rem;
+margin-bottom: 1.5rem;
+}
+
+dfn, cite, em, i {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 0 1.5em;
+}
+
+address {
+	margin: 0 0 1.5em;
+}
+
+pre {
+	background: #fff;
+	margin: 1.5em 0 0;
+line-height: 1.35;
+font-size: 1.3rem;
+color: #181818;
+font-family: minion-pro, serif;
+font-weight: 400;
+font-style: normal;
+
+}
+
+code, kbd, tt, var {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+}
+
+abbr, acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+mark, ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	/* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+body {
+	background: #fff;
+	/* Fallback for when there is no custom background color defined. */
+}
+
+
+
+ .section-break {
+	 margin-top: 1.5rem;
+	 margin-bottom: 1.5rem;
+ }
+
+.p-section-break {
+	margin-top: 1.5rem !important;
+	margin-bottom: 1.5rem !important;
+}
+
+ p.text-center.p-section-break + p + p {
+	 text-indent: 0;
+
+ }
+
+ .clear-section-break {
+	 margin-top: 2.5rem !important;
+	 margin-bottom: 2.5rem !important;
+ }
+
+ .stanza-break {
+ 	margin-top: 1.25rem !important;
+ 	margin-bottom: 0.25rem !important;
+ }
+
+
+.category-fiction .entry-content p {
+	margin-top: 0em;
+	margin-bottom: 0;
+	text-indent: 1.4em;
+	line-height: 1.4 !important;
+}
+
+
+.category-fiction .entry-content p:first-of-type {
+	text-indent: 0;
+}
+
+.category-nonfiction .entry-content p {
+	margin-top: 0em;
+	margin-bottom: 0;
+	text-indent: 1.4em;
+}
+
+
+
+.category-nonfiction .entry-content p:first-of-type {
+	text-indent: 0;
+}
+
+.category-translation .entry-content p:first-of-type {
+	text-indent: 0;
+}
+
+.category-poetry .workAuthorByline {
+margin-bottom: 2rem;
+}
+
+.category-poetry .entry-content p {
+	margin-top: 0em;
+	margin-bottom: 0;
+}
+
+.category-comics .entry-content p {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-indent: 1.4em;
+	line-height: 1.4 !important;
+}
+
+
+.no-indent {
+		text-indent: 0em !important;
+}
+.category-translations  p {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	text-indent: 1.4em;
+	line-height: 1.4 !important;
+}
+
+.trans-no-padding {
+	padding-left: 0 !important;
+}
+
+
+/* following used only for Tacarambeau work */
+.translatedWork p {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	text-indent: 1.4em !important;
+	line-height: 1.4 !important;
+}
+
+.translationTitle {
+	margin-top: 7rem;
+}
+
+.translatorByline {
+	margin-bottom: 3rem;
+}
+
+.translatorByline + p {
+	text-indent: 0!important;
+}
+
+ .entry-content + p {
+	text-indent: 0!important;
+}
+
+.dropcaps {
+			box-sizing: content-box;
+     float:left;
+     color: #464646;
+     font-size: 6.25rem; /* was 6.25 */
+     line-height: 5.1875rem; /* was 4.6875 */
+     padding-right: 0;
+     padding-left: 0;
+		 text-indent: 0!important;
+ }
+
+.dropcaps::after {
+	letter-spacing: -1rem;
+}
+
+.prefaceAuthor + p {
+	text-indent: 0!important;
+
+}
+
+.clearIndent + p {
+	text-indent: 0!important;
+}
+
+.footnotes {
+	font-size: .8em;
+}
+
+.footnotes p {
+	text-indent: 0 !important;
+}
+
+section.workAuthorBio strong {
+	color: #df6348;
+}
+
+section.workAuthorBio a {
+	text-decoration: underline;
+
+}
+
+.contributor-page-bio strong {
+	color: #df6348;
+}
+.contributor-page-bio a:link, a:visited {
+	text-decoration: underline;
+}
+
+.prefaceAuthor {
+	text-align: right;
+	margin-top: -2rem;
+	margin-bottom: 4rem;
+}
+
+.soliloquy-prev {
+	left: -2rem !important;
+	background-color: rgba(0, 0, 0, 0.1) !important;
+}
+.soliloquy-next {
+	right: -2rem !important;
+	background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.tag-translated-poetry + p* {
+	text-indent: 0 !important;
+	margin-top:0;
+	margin-bottom: 0;
+}
+
+.translatorBio {
+
+}
+
+#original p {
+	margin-top: 0em;
+	margin-bottom: 0;
+}
+
+#translation p {
+	margin-top: 0em;
+	margin-bottom: 0;
+}
+
+#select-unerased {
+
+}
+
+#select-erased {
+
+}
+
+.article-content { margin-top: 0em;
+     margin-bottom: 0;
+     text-indent: 1.4em;
+ }
+
+
+
+ .indent {
+     display: inline-block;
+     text-indent: 3em;
+     margin-bottom: 0;
+ }
+
+
+.single-space-paragraphs p {
+	margin-top: 0em;
+	margin-bottom: 0;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+
+.topbanner {
+	border-bottom: 2px solid #a37a75;
+}
+
+
+.volumeIssue {
+	background-color: #a37a75;
+	color: white;
+	font-size: 1.5rem;
+	font-family: "Theinhardt";
+	font-weight: 300;
+	border-top: 2px solid #a37a75; /* border at bottom of image */
+
+}
+
+.volumeIssueBanner {
+	color: #8c8c88;
+	font-family: "Theinhardt";
+	font-weight: 500;
+	font-size: 1.125em;
+	line-height: 2.25em;
+	padding-top: .5rem;
+}
+
+
+
+.TOCsection h3 {
+	text-align: center;
+}
+
+.TOC-column-1 h3:not(:first-of-type) {
+	margin-top: 3.5rem;
+}
+
+.TOCsection p {
+	font-size: 1.25rem;
+	text-align: center;
+
+}
+
+.TOC-quote {
+	min-height: 14rem;
+	text-align: center;
+	font-size: 3rem;
+	margin-top: 3rem;
+}
+
+.TOC-text {
+
+}
+
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+ul, ol {
+	margin: 0 0 1.5em 3em;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+img {
+	height: auto;
+	/* Make sure images are scaled correctly. */
+	max-width: 100%;
+	/* Adhere to container width. */
+}
+
+figure {
+	margin-top: 6em
+
+	/* Extra wide images within figure tags don't overflow the content area. */
+
+}
+
+figcaption {
+	font-size: 1rem;
+}
+
+table {
+	margin: 0 0 1.5em;
+	width: 100%;
+}
+
+footer {
+	margin-top: 3rem;
+}
+
+.fab {
+	font-size: 2rem;
+}
+
+.fa-facebook-square {
+	margin-right: 1.5rem;
+}
+
+.fa-instagram {
+	margin-right: 1.5rem;
+}
+
+.wlu-logo {
+	display: inline-block;
+	margin-left: 13rem;
+	margin-top: 2rem;
+}
+
+.copyright {
+	margin-left: 2rem;
+}
+
+.page-issues .card {
+	max-width: 300px !important;
+}
+
+.card a {
+	color: #181818;
+}
+
+.card a:visited {
+	color: #181818;
+}
+
+.card a:hover {
+	color: #df6348;
+}
+
+.page-issues .card-deck {
+	margin-bottom: 2rem;
+}
+
+.card-img {
+	overflow: hidden !important;
+}
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-color: #ccc #ccc #bbb;
+	border-radius: 3px;
+	background: #e6e6e6;
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 1;
+	padding: .6em 1em .4em;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	border-color: #ccc #bbb #aaa;
+}
+
+button:active, button:focus,
+input[type="button"]:active,
+input[type="button"]:focus,
+input[type="reset"]:active,
+input[type="reset"]:focus,
+input[type="submit"]:active,
+input[type="submit"]:focus {
+	border-color: #aaa #bbb #bbb;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	color: #666;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 3px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+	color: #111;
+}
+
+select {
+	border: 1px solid #ccc;
+}
+
+textarea {
+	width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+a {
+	color: #df6348;
+}
+
+a:visited {
+	color: #df6348;
+}
+
+a:hover, a:focus, a:active {
+	color: #df6348;
+
+/*	color: #75aba7;*/
+	/*font-style: italic;*/
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover, a:active {
+	outline: 0;
+}
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+.shen-nav {
+	display: inline-block;
+}
+
+.nav-item {
+	font-size: 1.125em;
+	line-height: 2.25em;
+	font-family: "Theinhardt";
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #df6348;
+}
+
+.main-navigation {
+	clear: both;
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+.main-navigation ul {
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+.main-navigation ul ul {
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	float: left;
+	position: absolute;
+	top: 100%;
+	left: -999em;
+	z-index: 99999;
+}
+
+.main-navigation ul ul ul {
+	left: -999em;
+	top: 0;
+}
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
+	left: 100%;
+}
+
+.main-navigation ul ul a {
+	width: 200px;
+}
+
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+	left: auto;
+}
+
+.main-navigation li {
+	float: left;
+	position: relative;
+}
+
+.main-navigation a {
+	display: block;
+	text-decoration: none;
+}
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+	display: block;
+}
+
+@media screen and (min-width: 37.5em) {
+	.menu-toggle {
+		display: none;
+	}
+	.main-navigation ul {
+		display: block;
+	}
+}
+
+.site-main .comment-navigation, .site-main
+.posts-navigation, .site-main
+.post-navigation {
+	margin: 0 0 1.5em;
+	overflow: hidden;
+}
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+	float: left;
+	width: 50%;
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	clip-path: none;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+	outline: 0;
+}
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+.clear:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after {
+	clear: both;
+}
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+.widget {
+	margin: 0 0 1.5em;
+	/* Make sure select elements fit in widgets. */
+}
+
+.widget select {
+	max-width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+.author_name {
+}
+
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+line-height: 1.35;
+font-size: 1.3rem;
+
+
+
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+.infinite-scroll .posts-navigation,
+.infinite-scroll.neverending .site-footer {
+	/* Theme Footer (when set to scrolling) */
+	display: none;
+}
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+/* Make sure logo link wraps around logo image. */
+.custom-logo-link {
+	display: inline-block;
+}
+
+.img-fluid {
+max-width: 100%;
+height: auto;
+}
+
+ .cover-image {
+ }
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+	text-align: center;
+}
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+.gallery {
+	margin-bottom: 1.5em;
+}
+
+.gallery-item {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-caption {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+## Media Queries
+--------------------------------------------------------------*/
+
+/*
+ ##Device = Desktops
+ ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+ //CSS
+
+}
+
+/*
+ ##Device = Laptops, Desktops
+ ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+ //CSS
+
+}
+
+/*
+ ##Device = Tablets, Ipads (portrait)
+ ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+ //CSS
+
+}
+
+/*
+ ##Device = Tablets, Ipads (landscape)
+ ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+ //CSS
+
+}
+
+/*
+ ##Device = Low Resolution Tablets, Mobiles (Landscape)
+ ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+	#typelogo {
+ 	 font-size: 2.5rem;
+ 	 margin: 0;
+	 text-align: center;
+  }
+
+  .TOC-quote {
+ 	 font-size: 1.75rem;
+  }
+
+ .volumeIssueBanner {
+text-align: center;
+}
+
+
+/* end max-width 767px*/
+}
+
+/*
+ ##Device = Most of the Smartphones Mobiles (Portrait)
+ ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+ #typelogo {
+	 font-size: 3rem;
+	 margin: 0;
+	 text-align: center;
+
+ }
+
+ .TOC-quote {
+	 font-size: 1.75rem;
+ }
+
+ .volumeIssueBanner {
+text-align: center;
+}
+
+.flex-column {
+	flex-direction: row !important;
+}
+
+.shen-nav a.nav-item {
+	text-align: center;
+	line-height: 1.1;
+
+}
+
+.cover-row {
+	display: block;
+}
+
+.cover-image {
+object-fit: contain;
+}
+
+/* END 320px - 480px*/
+}
