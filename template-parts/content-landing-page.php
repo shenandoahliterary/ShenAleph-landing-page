@@ -125,7 +125,7 @@ awake for hours<br />
 				else:
 			?>
 <!--  suppress error message when no features are presented
-					 Oops, there are no features.
+					 Oops, there are no features. Need to remove this section since quote is hardcoded for now.
 -->
 			<?php
 				endif;
