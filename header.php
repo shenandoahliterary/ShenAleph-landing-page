@@ -43,8 +43,8 @@
 		</div>
 			<div class="col-md-5">
 				<div class="shen-nav d-flex flex-column flex-sm-row justify-content-end" >
-					<a class="nav-item nav-link" href="https://shenandoahliterary.org/682/about/">About</a>
-					<a class="nav-item nav-link" href="https://shenandoahliterary.org/682/issues/">Issues</a>
+					<a class="nav-item nav-link" href="https://shenandoahliterary.org/about/">About</a>
+					<a class="nav-item nav-link" href="https://shenandoahliterary.org/issues/">Issues</a>
 					<a class="nav-item nav-link" href="https://shenandoahliterary.org/681/submit/">Submit</a>
 					<a class="nav-item nav-link" href="https://shenandoahliterary.org/682/category/feature">The Peak</a>
 				</div>
