@@ -23,7 +23,13 @@ get_header();
 									<h1 class="entry-header entry-title">Issues</h1>
 				<div class="card-deck">
 					<!-- insert latest issues here -->
-
+					<div class="card w-300"><a href="https://shenandoahliterary.org/691">
+						<img class="card-img-top" src="https://shenandoahliterary.org/691/files/2019/12/tavera-300x198.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Volume 69 Issue 1</h5>
+						</div>
+					</a>
+					</div>
 
 				 </div>
 				</div>
