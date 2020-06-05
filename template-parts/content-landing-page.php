@@ -86,7 +86,7 @@ if ($query->have_posts()) :
 		 Oops, there are no posts.
 -->
 <p>&ldquo;I was a good boy, so I put my rage in my<br />
-pocket. It wouldn't stay there for long.""<br />
+pocket. It wouldn't stay there for long.&rdquo;<br />
 
 &nbsp; <br />
 —Max King Cap, <a href="https://shenandoahliterary.org/692/the-man-in-my-chair/">&ldquo;The Man in My Chair&rdquo;</a></p>
