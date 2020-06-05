@@ -89,7 +89,7 @@ if ($query->have_posts()) :
 pocket. It wouldn't stay there for long.""<br />
 
 &nbsp; <br />
-—Max King Cap, &ldquo;<a href="https://shenandoahliterary.org/692/the-man-in-my-chair/">The Man in My Chair</a>&rdquo;</p>
+—Max King Cap, <a href="https://shenandoahliterary.org/692/the-man-in-my-chair/">&ldquo;The Man in My Chair&rdquo;</a></p>
 
 <?php
 	endif;
