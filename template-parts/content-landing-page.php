@@ -12,7 +12,7 @@ $upload_path =  $uploads['baseurl'];
 /* need to set image in admin dashboard or in a custom field */
 	?>
 <!-- <img  class="img-fluid cover-image w-100" src="<?php echo $upload_path ?>/2018/12/cover-7-500.jpg"> -->
-<img  class="img-fluid cover-image w-100" src="https://shenandoahliterary.org/691/files/2019/11/blimp.jpg">
+<img  class="img-fluid cover-image w-100" src="https://shenandoahliterary.org/692/files/2020/05/Art-Askew-scaled.jpg">
 </div>
 <div class="row volumeIssue">
 </div>
@@ -85,11 +85,11 @@ if ($query->have_posts()) :
 <!-- replace error message when no quote is available with hardcoded quote
 		 Oops, there are no posts.
 -->
-<p>Take care to leave the stick firmly planted<br />
-with thanks<br />
-at the other shore: here comes someone<br />
+<p>&ldquo;I was a good boy, so I put my rage in my<br />
+pocket. It wouldn't stay there for long.""<br />
+
 &nbsp; <br />
-—José Watanabe, &ldquo;<a href="https://shenandoahliterary.org/691/the-ford/">The Ford</a>&rdquo;</p>
+—Max King Cap, &ldquo;<a href="https://shenandoahliterary.org/692/the-man-in-my-chair/">The Man in My Chair</a>&rdquo;</p>
 
 <?php
 	endif;
