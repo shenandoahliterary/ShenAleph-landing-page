@@ -23,6 +23,15 @@ get_header();
 									<h1 class="entry-header entry-title">Issues</h1>
 				<div class="card-deck">
 					<!-- insert latest issues here -->
+					<div class="card w-300"><a href="https://shenandoahliterary.org/701">
+						<img class="card-img-top" src="https://shenandoahliterary.org/701/files/2020/12/Art-Horn-of-Plenty-Travis-300w.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Volume 69 Issue 2</h5>
+						</div>
+					</a>
+					</div>
+
+
 					<div class="card w-300"><a href="https://shenandoahliterary.org/692">
 						<img class="card-img-top" src="https://shenandoahliterary.org/692/files/2020/06/Art-Askew-300x198-1.jpg" alt="Card image cap">
 						<div class="card-body">
