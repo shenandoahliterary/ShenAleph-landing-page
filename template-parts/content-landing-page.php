@@ -12,7 +12,7 @@ $upload_path =  $uploads['baseurl'];
 /* need to set image in admin dashboard or in a custom field */
 	?>
 <!-- <img  class="img-fluid cover-image w-100" src="<?php echo $upload_path ?>/2018/12/cover-7-500.jpg"> -->
-<img  class="img-fluid cover-image w-100" src="https://shenandoahliterary.org/692/files/2020/05/Art-Askew-scaled.jpg">
+<img  class="img-fluid cover-image w-100" src="https://shenandoahliterary.org/701/files/2020/12/Art-Horn-of-Plenty-Travis-1k.jpg">
 </div>
 <div class="row volumeIssue">
 </div>
@@ -84,12 +84,17 @@ if ($query->have_posts()) :
 ?>
 <!-- replace error message when no quote is available with hardcoded quote
 		 Oops, there are no posts.
+
+		 Give me back Martin Luther King, Jr. and Malcolm X and
+Medgar Evers. Give me back the beauty of my hair. The swell of my hips. The big of my lips. Give me back the whole Atlantic Ocean.
+Give me a never-ending blue. And a mule.
 -->
-<p>&ldquo;I was a good boy, so I put my rage in my<br />
-pocket. It wouldn't stay there for long.&rdquo;<br />
+<p>&ldquo;Give me back Martin Luther King, Jr. and Malcolm X and
+Medgar Evers. Give me back the beauty of my hair. The swell of my hips. The big of my lips. Give me back the whole Atlantic Ocean.
+Give me a never-ending blue. And a mule.&rdquo;<br />
 
 &nbsp; <br />
-—Max King Cap, <a href="https://shenandoahliterary.org/692/the-man-in-my-chair/">&ldquo;The Man in My Chair&rdquo;</a></p>
+—Ashley M. Jones, <a href="https://shenandoahliterary.org/701/reparations-now/">&ldquo;Reparations Now, Reparations Tomorrow, Reparations Forever&rdquo;</a></p>
 
 <?php
 	endif;
