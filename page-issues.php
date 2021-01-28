@@ -26,7 +26,7 @@ get_header();
 					<div class="card w-300"><a href="https://shenandoahliterary.org/701">
 						<img class="card-img-top" src="https://shenandoahliterary.org/701/files/2020/12/Art-Horn-of-Plenty-Travis-300w.jpg" alt="Card image cap">
 						<div class="card-body">
-							<h5 class="card-title">Volume 69 Issue 2</h5>
+							<h5 class="card-title">Volume 70 Issue 1</h5>
 						</div>
 					</a>
 					</div>
