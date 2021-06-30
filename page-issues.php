@@ -24,7 +24,7 @@ get_header();
 				<div class="card-deck">
 					<!-- insert latest issues here -->
 					<div class="card w-300"><a href="https://shenandoahliterary.org/702">
-						<img class="card-img-top" src="https://shenandoahliterary.org/702/files/2021/06/Art-FlattenedFlowers09-507x640-1.jpg" alt="Card image cap">
+						<img class="card-img-top" src="https://shenandoahliterary.org/702/files/2021/06/Art-FlattenedFlowers09-300x198-1.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Volume 70 Issue 2</h5>
 						</div>
