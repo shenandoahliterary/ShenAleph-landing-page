@@ -844,7 +844,7 @@ section.workAuthorBio a {
 .TOC-quote {
 	min-height: 14rem;
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 1.75rem;
 	margin-top: 3rem;
 }
 
@@ -1523,7 +1523,7 @@ height: auto;
   }
 
   .TOC-quote {
- 	 font-size: 1.5rem;
+ 	 font-size: 1.75rem;
   }
 
  .volumeIssueBanner {
@@ -1549,7 +1549,7 @@ text-align: center;
  }
 
  .TOC-quote {
-	 font-size: 1.5rem;
+	 font-size: 1.75rem;
  }
 
  .volumeIssueBanner {
