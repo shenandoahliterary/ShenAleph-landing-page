@@ -59,7 +59,7 @@ $upload_path =  $uploads['baseurl'];
 <!--  Features section -->
 <section class="container TOC-quote">
 <div class="row">
-	<div class="col-md-11 offset-md-1 h-100">
+	<div class="col-md-10 offset-md-1 h-100">
 <?php
 $args = array(
     'meta_key'         => 'add-quote-to-toc',
