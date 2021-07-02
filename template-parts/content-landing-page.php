@@ -94,7 +94,7 @@ if ($query->have_posts()) :
 <p>&ldquo;Today we dive into an ocean—<br>
 bellies full of fruit blessings & minds still<br>
 on fire from a story Ma told us about a Black girl<br>
-in Harlem who could fly like a bird.<br>&rdquo;<br />
+in Harlem who could fly like a bird.&rdquo;<br />
 
 &nbsp; <br />
 —Nadia Alexis, <a href="https://shenandoahliterary.org/702/cantaloupe/">&ldquo;Canteloupe&rdquo;</a></p>
