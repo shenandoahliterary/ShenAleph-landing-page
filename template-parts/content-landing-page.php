@@ -12,7 +12,7 @@ $upload_path =  $uploads['baseurl'];
 /* need to set image in admin dashboard or in a custom field */
 	?>
 <!-- <img  class="img-fluid cover-image w-100" src="<?php echo $upload_path ?>/2018/12/cover-7-500.jpg"> -->
-<img  class="img-fluid cover-image w-100" src="https://shenandoahliterary.org/701/files/2020/12/Art-Horn-of-Plenty-Travis-1k.jpg">
+<img  class="img-fluid cover-image w-100" src="https://shenandoahliterary.org/702/files/2021/06/Art-FlattenedFlowers09-507x640-1.jpg">
 </div>
 <div class="row volumeIssue">
 </div>
@@ -84,17 +84,20 @@ if ($query->have_posts()) :
 ?>
 <!-- replace error message when no quote is available with hardcoded quote
 		 Oops, there are no posts.
+		 Today we dive into an ocean—<br>
+		 bellies full of fruit blessings & minds still<br>
+		 on fire from a story Ma told us about a Black girl<br>
+		 in Harlem who could fly like a bird.<br>
+		 —Nadia Alexis, “Cantaloupe”
 
-		 Give me back Martin Luther King, Jr. and Malcolm X and
-Medgar Evers. Give me back the beauty of my hair. The swell of my hips. The big of my lips. Give me back the whole Atlantic Ocean.
-Give me a never-ending blue. And a mule.
 -->
-<p>&ldquo;Give me back Martin Luther King, Jr. and Malcolm X and
-Medgar Evers. Give me back the beauty of my hair. The swell of my hips. The big of my lips. Give me back the whole Atlantic Ocean.
-Give me a never-ending blue. And a mule.&rdquo;<br />
+<p>&ldquo;Today we dive into an ocean—<br>
+bellies full of fruit blessings & minds still<br>
+on fire from a story Ma told us about a Black girl<br>
+in Harlem who could fly like a bird.<br>&rdquo;<br />
 
 &nbsp; <br />
-—Ashley M. Jones, <a href="https://shenandoahliterary.org/701/reparations-now/">&ldquo;Reparations Now, Reparations Tomorrow, Reparations Forever&rdquo;</a></p>
+—Nadia Alexis, <a href="https://shenandoahliterary.org/702/cantaloupe/">&ldquo;Canteloupe&rdquo;</a></p>
 
 <?php
 	endif;
