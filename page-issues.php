@@ -17,10 +17,28 @@ get_header();
 			</section>
 
 			<section class="container page-issues">
+
+
+
 				<!-- top row -->
-							<div class="row">
-								<div class="col-md-10 offset-md-1">
-									<h1 class="entry-header entry-title">Issues</h1>
+					<div class="row">
+					<div class="col-md-10 offset-md-1">
+						<h1 class="entry-header entry-title">Issues</h1>
+						<div class="card-deck">
+					<!-- insert latest issues here -->
+					<div class="card w-300"><a href="https://shenandoahliterary.org/711">
+						<img class="card-img-top" src="https://shenandoahliterary.org/711/files/2021/12/Sharma-Manjari-art-300w.jpg" alt="Vol 71, Issue 1">
+						<div class="card-body">
+							<h5 class="card-title">Volume 71 Issue 1</h5>
+						</div>
+					</a>
+					</div>
+					</div>
+				</div>
+
+				<!-- startrow -->
+					<div class="row">
+					<div class="col-md-10 offset-md-1">					
 				<div class="card-deck">
 					<!-- insert latest issues here -->
 					<div class="card w-300"><a href="https://shenandoahliterary.org/702">
