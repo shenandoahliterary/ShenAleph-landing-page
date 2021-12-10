@@ -12,7 +12,7 @@ $upload_path =  $uploads['baseurl'];
 /* need to set image in admin dashboard or in a custom field */
 	?>
 <!-- <img  class="img-fluid cover-image w-100" src="<?php echo $upload_path ?>/2018/12/cover-7-500.jpg"> -->
-<img  class="img-fluid cover-image m-auto" src="https://shenandoahliterary.org/711/files/2021/12/Sharma-Manjari-art-500w.jpg">
+<img  class="img-fluid cover-image m-auto" src="https://shenandoahliterary.org/711/files/2021/12/Sharma-Manjari-art-800w.jpg">
 </div>
 <div class="row volumeIssue">
 </div>
