@@ -12,7 +12,7 @@ $upload_path =  $uploads['baseurl'];
 /* need to set image in admin dashboard or in a custom field */
 	?>
 <!-- <img  class="img-fluid cover-image w-100" src="<?php echo $upload_path ?>/2018/12/cover-7-500.jpg"> -->
-<img  class="img-fluid cover-image m-auto" src="https://shenandoahliterary.org/711/files/2021/12/Sharma-Manjari-art-800w.jpg">
+<img  class="img-fluid cover-image m-auto" src="https://shenandoahliterary.org/712/files/2022/06/572x700.jpg">
 </div>
 <div class="row volumeIssue">
 </div>
@@ -91,10 +91,10 @@ if ($query->have_posts()) :
 		 —Nadia Alexis, “Cantaloupe”
 
 -->
-<p>&ldquo;Thinking, not thinking, sleeping. I helped because I was trying to understand. I helped because I was hoping to see the world through another’s eyes. This is a form of knowledge, I assure myself.&rdquo;<br />
+<p>&ldquo;I swallowed until the elephant trunk was empty, and I decided then that I’d shun my spit in favor of this: her fists fattening into clouds, wads of water filling my throat.&rdquo;<br />
 
 &nbsp; <br />
-—S.S. Mandani, <a href="https://shenandoahliterary.org/711/greater-jihad/">&ldquo;Greater Jihad&rdquo;</a></p>
+—K-Ming Change, <a href="https://shenandoahliterary.org/712/lizard-luck/">&ldquo;Lizard Luck&rdquo;</a></p>
 
 <?php
 	endif;
