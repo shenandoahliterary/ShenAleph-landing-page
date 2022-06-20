@@ -82,15 +82,6 @@ if ($query->have_posts()) :
 		 endwhile;
 	else:
 ?>
-<!-- replace error message when no quote is available with hardcoded quote
-		 Oops, there are no posts.
-		 Today we dive into an ocean—<br>
-		 bellies full of fruit blessings & minds still<br>
-		 on fire from a story Ma told us about a Black girl<br>
-		 in Harlem who could fly like a bird.<br>
-		 —Nadia Alexis, “Cantaloupe”
-
--->
 <p>&ldquo;I swallowed until the elephant trunk was empty, and I decided then that I’d shun my spit in favor of this: her fists fattening into clouds, wads of water filling my throat.&rdquo;<br />
 
 &nbsp; <br />
