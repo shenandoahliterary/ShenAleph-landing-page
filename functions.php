@@ -185,7 +185,16 @@ function shenAlephLandingPage_empty_email_error( $arg ) {
 }
 add_action( 'user_profile_update_errors', 'shenAlephLandingPage_empty_email_error' );
 
+/******************************************
+* Add WP ACF function to create options page
+* Documentation: https://www.advancedcustomfields.com/resources/options-page/
+*******************************************/
 
+if( function_exists('acf_add_options_page') ) {
+	
+	acf_add_options_page();
+	
+}
 
 
 /******************************************
