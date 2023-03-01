@@ -25,32 +25,34 @@
 <!-- start Bootstrap container -->
 <div id="page" class="site">
 
-			<section class="topbanner container-fluid" id="typelogo-container">
-				<div class="row">
-				<!--	<?php	the_custom_logo(); ?> -->
-				<a href="https://shenandoahliterary.org/" class="img-fluid-link" rel="home" itemprop="url"><img width="1600" height="228" src="https://shenandoahliterary.org/681/files/2018/12/Shenandoah-1600.jpg" class="img-fluid" alt="Shenandoah Volume 68, Number 1" itemprop="logo" srcset="https://shenandoahliterary.org/681/files/2018/12/Shenandoah-1600.jpg 1600w, https://shenandoahliterary.org/681/files/2018/12/Shenandoah-1600-300x43.jpg 300w, https://shenandoahliterary.org/681/files/2018/12/Shenandoah-1600-768x109.jpg 768w, https://shenandoahliterary.org/681/files/2018/12/Shenandoah-1600-1024x146.jpg 1024w" sizes="(max-width: 1600px) 100vw, 1600px" /></a>
-				</div>
-				<div class="row">
-		<div class="col-md-11">
-			<h1 class="" id="typelogo"><a href="https://shenandoahLiterary.org/">Shenandoah</a></h1>
+	<section class="topbanner-noborder container-fluid">
+
+		<div class="d-flex justify-content-center align-items-center" style="background-color: white">
+            <p>
+                <img style="width:8vw; height:auto; padding-top:4vw; padding-right: 1.25vw" src="<?php echo get_stylesheet_directory_uri(); ?>/no_text.jpg" alt="Shenandoah Logo" itemprop="logo">
+            </p>
+            <p id="typelogo">
+				<a href="https://shenandoahLiterary.org/721/" style="color: rgb(103,173,168)">Shenandoah</a>
+			</p>
 		</div>
-		</div>
-		<div class="row">
-			<div class="col-md-5 offset-md-1">
-				<div class="volumeIssueBanner">
-				<span class=""></span>
+
+		<div class="row nav-bar-row" style="margin-top:.25vw; padding-top:.5vw">
+			<div class="col-md-4">
+				<div class="volumeIssueBanner" style="padding-left: 6vw">
+					Volume 72, Number 2 &middot; Spring 2023
 				</div>
+			</div>
+
+			<div class="d-flex flex-nowrap col-md-8 float-md-end nav-bar" role="navigation">
+				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/721/#toc">Current Issue</a>
+				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/about/">About</a>
+				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/issues/">Archive</a>
+				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/submissions/">Submit</a>
+				<a class="nav-link" style="padding-right:6.8vw" href="https://shenandoahliterary.org/thepeak">The Peak</a>
+			</div>
 		</div>
-			<div class="col-md-5">
-				<div class="shen-nav d-flex flex-column flex-sm-row justify-content-end" >
-					<a class="nav-item nav-link" href="https://shenandoahliterary.org/about/">About</a>
-					<a class="nav-item nav-link" href="https://shenandoahliterary.org/issues/">Issues</a>
-					<a class="nav-item nav-link" href="https://shenandoahliterary.org/submissions/">Submit</a>
-					<a class="nav-item nav-link" href="https://shenandoahliterary.org/thepeak">The Peak</a>
-				</div>
-				</div>
-		</div>
-		</section>
+
+	</section>
 
 
 	<div id="content" class="site-content">
