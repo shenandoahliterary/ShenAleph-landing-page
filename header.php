@@ -29,7 +29,7 @@
 
 		<div class="d-flex justify-content-center align-items-center" style="background-color: white">
             <p>
-                <img style="width:8vw; height:auto; padding-top:4vw; padding-right: 1.25vw" src="<?php echo get_stylesheet_directory_uri(); ?>/no_text.jpg" alt="Shenandoah Logo" itemprop="logo">
+                <img style="width:8vw; height:auto; padding-top:4vw; padding-right: 1.25vw" src="<?php echo get_stylesheet_directory_uri(); ?>/favicon.jpg" alt="Shenandoah Logo" itemprop="logo">
             </p>
             <p id="typelogo">
 				<a href="https://shenandoahLiterary.org/721/" style="color: rgb(103,173,168)">Shenandoah</a>
