@@ -825,7 +825,17 @@ section.workAuthorBio a {
 	padding-top: .5rem;
 }
 
+.nav-bar{
+	font-family: "Theinhardt";
+	font-size: 20px;
+	font-weight: 550;
+	color: rgb(223,99,71);
+	justify-content: right;
+	text-transform: uppercase;
+	background-color: white;
 
+
+}
 
 .TOCsection h3 {
 	text-align: center;
