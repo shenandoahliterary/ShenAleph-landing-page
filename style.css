@@ -926,9 +926,10 @@ table {
 	width: 100%;
 }
 
-footer {
-	margin-top: 3rem;
-}
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
 
 .footer-above{
 	width: 100%;
@@ -937,7 +938,7 @@ footer {
 }
 
 .images{
-	padding: var(--top-padding);
+	padding: 15px;
 }
 
 .wl-logo{
@@ -951,9 +952,22 @@ footer {
 
 .wl-logo, .clmp{
 	display: inline-block;
-	padding-top: var(--top-padding);
+	padding-top: 15px;
 }
 
+.wl-logo img, .clmp img{
+	display: block;
+	height: auto;
+	width: auto;
+}
+
+.wl-logo img{
+	margin-right: -40px;
+}
+
+footer {
+	margin-top: 3rem;
+}
 
 .fab {
 	font-size: 2rem;
