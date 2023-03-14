@@ -420,10 +420,10 @@ textarea {
 	border: 1px solid black;
 }
 
-.typelogo-column {
-	margin-right: -3.75rem;
-	padding-left: 4rem;
-}
+/*.typelogo-column {*/
+/*	margin-right: -3.75rem;*/
+/*	padding-left: 4rem;*/
+/*}*/
 
 
 #typelogo {
@@ -437,14 +437,9 @@ textarea {
 
 }
 
-#typelogo a:link {
+#typelogo a:link, #typelogo a:visited {
 	text-decoration: none;
-	color: #181818;
-}
-
-#typelogo a:visited {
-	text-decoration: none;
-	color: #181818;
+	color: rgb(103,173,168);
 }
 
 footer hr {
