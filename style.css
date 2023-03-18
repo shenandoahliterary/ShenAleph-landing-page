@@ -427,15 +427,25 @@ textarea {
 
 
 #typelogo {
-		font-family: "Theinhardt";
-		font-weight: 500;
-		/*font-size: 8.725rem;*/
+	font-family: "Theinhardt";
+	font-weight: 500;
+	font-size: 12vw;
+	text-transform: uppercase;
+	margin-bottom: -5vw;
+}
+
+@-moz-document url-prefix() {
+    #typelogo {
+        font-family: "Theinhardt";
+        font-weight: 500;
+        /*font-size: 8.725rem;*/
 		font-size: 10.75rem;
 		text-transform: uppercase;
 		margin:0 0 -3rem 0;
 		text-align: center;
-
+	}
 }
+
 
 #typelogo a:link, #typelogo a:visited {
 	text-decoration: none;
