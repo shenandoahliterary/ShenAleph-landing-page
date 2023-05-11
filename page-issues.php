@@ -26,6 +26,23 @@ get_header();
 						<h1 class="entry-header entry-title">Issues</h1>
 						<div class="card-deck">
 					<!-- insert latest issues here -->
+
+					<div class="card w-300"><a href="https://shenandoahliterary.org/722">
+						<img class="card-img-top" src="https://shenandoahliterary.org/722/wp-content/themes/ShenAleph2.2/banner.png" alt="Vol 72, Issue 2">
+						<div class="card-body">
+							<h5 class="card-title">Volume 72 Issue 2</h5>
+						</div>
+					</a>
+					</div>
+
+					<div class="card w-300"><a href="https://shenandoahliterary.org/721">
+						<img class="card-img-top" src="https://shenandoahliterary.org/721/wp-content/themes/ShenAleph2.1/volumeIssueBanner.png" alt="Vol 72, Issue 1">
+						<div class="card-body">
+							<h5 class="card-title">Volume 72 Issue 1</h5>
+						</div>
+					</a>
+					</div>
+
 					<div class="card w-300"><a href="https://shenandoahliterary.org/712">
 						<img class="card-img-top" src="https://shenandoahliterary.org/712/files/2022/06/245x300.jpg" alt="Vol 71, Issue 1">
 						<div class="card-body">
@@ -45,7 +62,7 @@ get_header();
 
 				<!-- startrow -->
 					<div class="row">
-					<div class="col-md-10 offset-md-1">					
+					<div class="col-md-10 offset-md-1">
 				<div class="card-deck">
 					<!-- insert latest issues here -->
 					<div class="card w-300"><a href="https://shenandoahliterary.org/702">
