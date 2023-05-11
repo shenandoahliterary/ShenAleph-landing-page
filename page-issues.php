@@ -44,7 +44,7 @@ get_header();
 					</div>
 
 					<div class="card w-300"><a href="https://shenandoahliterary.org/712">
-						<img class="card-img-top" src="https://shenandoahliterary.org/712/files/2022/06/245x300.jpg" alt="Vol 71, Issue 1">
+						<img class="card-img-top" src="Volume71.Issue2.CroppedSnapshot.png" alt="Vol 71, Issue 1">
 						<div class="card-body">
 							<h5 class="card-title">Volume 71 Issue 2</h5>
 						</div>
