@@ -19,7 +19,7 @@ get_header();
 			<section class="container page-issues">
 
 
-				<!-- top row -->
+				<!-- top row jb changed -->
 				<div class="row">
 					<div class="col-md-10 offset-md-1">
 						<h1 class="entry-header entry-title">Issues</h1>
