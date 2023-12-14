@@ -34,27 +34,12 @@ get_header();
 					</a>
 					</div>
 
-					<div class="card w-300"><a href="https://shenandoahliterary.org/721">
-						<img class="card-img-top" src="" alt="Vol 72, Issue 1">
-						<div class="card-body">
-							<h5 class="card-title"></h5>
-						</div>
-					</a>
+					<div class="card w-300">
 					</div>
 
-					<div class="card w-300"><a href="https://shenandoahliterary.org/712">
-						<img class="card-img-top" src="" alt="Vol 71, Issue 1">
-						<div class="card-body">
-							<h5 class="card-title"></h5>
-						</div>
-					</a>
+					<div class="card w-300">
 					</div>
-					<div class="card w-300"><a href="https://shenandoahliterary.org/711">
-						<img class="card-img-top" src="" alt="Vol 71, Issue 1">
-						<div class="card-body">
-							<h5 class="card-title"></h5>
-						</div>
-					</a>
+					<div class="card w-300">
 					</div>
 					</div><!-- end card deck -->
 					</div><!-- end column -->
