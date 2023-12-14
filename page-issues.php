@@ -34,13 +34,8 @@ get_header();
 					</a>
 					</div>
 
-					<div class="card w-300">
-					</div>
 
-					<div class="card w-300">
-					</div>
-					<div class="card w-300">
-					</div>
+
 					</div><!-- end card deck -->
 					</div><!-- end column -->
 				</div><!-- end row -->
