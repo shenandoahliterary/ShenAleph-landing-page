@@ -56,9 +56,9 @@ get_header();
 						</div>
 					</a>
 					</div>
-					</div>
-					</div>
-				</div>
+					</div><!-- end card deck -->
+					</div><!-- end column -->
+				</div><!-- end row -->
 				<!-- second row -->
 					<div class="row">
 					<div class="col-md-10 offset-md-1">
