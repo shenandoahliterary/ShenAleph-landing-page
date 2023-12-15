@@ -32,7 +32,7 @@
                 <img style="width:8vw; height:auto; padding-top:4vw; padding-right: 1.25vw" src="<?php echo get_stylesheet_directory_uri(); ?>/logo-1600.png" alt="Shenandoah Logo" itemprop="logo">
             </p>
             <p id="typelogo">
-				<a href="https://shenandoahLiterary.org/721/" style="color: rgb(103,173,168)">Shenandoah</a>
+				<a href="https://shenandoahLiterary.org/" style="color: rgb(103,173,168)">Shenandoah</a>
 			</p>
 		</div>
 
@@ -44,7 +44,7 @@
 			</div>
 
 			<div class="d-flex flex-nowrap col-md-8 float-md-end nav-bar" role="navigation">
-				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/721/#toc">Current Issue</a>
+				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/#toc">Current Issue</a>
 				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/about/">About</a>
 				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/issues/">Archive</a>
 				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/submissions/">Submit</a>
