@@ -46,7 +46,7 @@ get_header();
 					<!-- insert latest issues here -->
 
 					<div class="card w-300"><a href="https://shenandoahliterary.org/722">
-						<img class="card-img-top" src="https://shenandoahliterary.org/722/wp-content/themes/ShenAleph2.2/banner.png" alt="Vol 72, Issue 2">
+						<img class="card-img-top" src="http://shenandoahliterary.org/wp-content/uploads/2024/01/Shenandoah72-fixed.png" alt="Vol 72, Issue 2">
 						<div class="card-body">
 							<h5 class="card-title">Volume 72 Issue 2</h5>
 						</div>
