@@ -26,10 +26,19 @@ get_header();
 						<div class="card-deck">
 					<!-- insert latest issues here -->
 
+					<div class="card w-300"><a href="https://shenandoahliterary.org/732/">
+						<img class="card-img-top" src="https://shenandoahliterary.org/732/files/2024/06/3.2coverrevised.png" alt="Vol 73, Issue 2">
+						<div class="card-body">
+							<h5 class="card-title">Volume 73 Issue 2</h5>
+						</div>
+					</a>
+					</div>
+
+
 					<div class="card w-300"><a href="https://shenandoahliterary.org/731/">
 						<img class="card-img-top" src="https://shenandoahliterary.org/731/files/2023/11/shenandoah-73.1-cover-opt.png" alt="Vol 73, Issue 1">
 						<div class="card-body">
-							<h5 class="card-title">Volume 73 Issue 21</h5>
+							<h5 class="card-title">Volume 73 Issue 1</h5>
 						</div>
 					</a>
 					</div>
